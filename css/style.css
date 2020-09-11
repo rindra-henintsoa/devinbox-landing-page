@@ -1,0 +1,81 @@
+#price {
+	padding-top: 10rem;
+}
+#price .container {
+	position: relative;
+}
+#price .container > div.devin span {
+	position: absolute;
+	top: -20%;
+	left: 9%;
+	background-color: #101e3f;
+	padding: 10px 15px;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+}
+#price .price-wrap {
+	background-color: #e6e9ef;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 1.5rem;
+	padding: 25px;
+	box-shadow: 0 6px 5px rgba(0,0,0,.5);
+	width: 960px;
+}
+#price .price-wrap::before {
+	content: '';
+	background: url('../img/triangle.png');
+	width: 40px;
+	height: 25px;
+	position: absolute;
+	top: -5%;
+	left: 5%;
+}
+#price .price-wrap .first {
+	margin: 0 20px;
+}
+#price .price-wrap .first h2 {
+	margin-top: 15px;
+	font-size: 26px;
+	font-weight: bold;
+	color: #000;
+}
+#price .price-wrap .first .button {
+	display: inline-block;
+	padding: 8px 20px;
+	font-size: 36px;
+	background-color: #101e3f;
+	border-radius: 7px;
+	color: white;
+	text-decoration: none;
+	margin: 0 0 15px;
+	border: 1px solid #0bbffe;
+	animation-iteration-count: infinite;
+	}
+#price .price-wrap .first .Big {
+	font-size: 45px;
+	max-width: 80px;
+	display: inline-block;
+	animation-iteration-count: 2;
+}
+#price .price-wrap .first .tiny {
+    font-size: 12px;
+    color: #87909a;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+#price .price-wrap .first .tiny a {
+	color: #29b8df;
+}
+.owl-carousel {
+	display: block;
+	border: 5px solid white;
+	border-radius: 5px;
+	margin: 30px -15px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+.owl-carousel img {
+	width: 392px;
+	height: 274px;
+}
